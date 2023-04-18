@@ -20,13 +20,13 @@ public class Main {
         ServiceStation serviceStationForCar = new ServiceStationForCar();
         ServiceStation serviceStationForBicycle = new ServiceStationForBicycle();
 
-        serviceStationForTruck.check(trucks[0]);
+        serviceStationForTruck.check(trucks[1]);
         System.out.println();
 
-        serviceStationForCar.check(cars[0]);
+        serviceStationForCar.check(cars[1]);
         System.out.println();
 
-        serviceStationForBicycle.check(bicycles[0]);
+        serviceStationForBicycle.check(bicycles[1]);
     }
 
 }
